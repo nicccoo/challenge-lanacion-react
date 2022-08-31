@@ -1,0 +1,7 @@
+.griditem-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 266.66px;
+    height: 278.47px;
+}
