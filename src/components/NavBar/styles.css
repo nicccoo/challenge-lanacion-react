@@ -1,0 +1,88 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 64px;
+    width: 100%;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.nav-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 33.3%;
+    align-items: center;
+}
+
+.nav-left__items {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 32.3%;
+}
+
+.menu-items {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.menu-text {
+    margin: 6px;
+}
+
+.search-input {
+    padding: 8px;
+}
+
+.nav-center {
+    width: 33.3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-center__title {
+    font-size: 40px;
+    font-weight: bold;
+    color: #3387AD;
+}
+
+.nav-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 33.3%;
+    justify-content: flex-end;
+}
+
+.nav-right__items {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+
+.nav-right__items>button {
+    text-transform: uppercase;
+    width: 105px;
+    padding: 10px 12px;
+    font-weight: bold;
+    border: 1px solid gray;
+    border-radius: 4px;
+    margin: 20px;
+    font-size: 12px;
+}
+
+.nav-right__items>button:first-child {
+    background-color: #FFFF50;
+}
+
+
+.nav-right__items>button:last-child {
+    background-color: white;
+    color: #3387AD;
+    border: 1px solid #3387AD;
+
+}
